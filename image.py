@@ -22,7 +22,7 @@ def get_gemini_response(input, image):
 
 # initialize streamlit app
 st.set_page_config(page_title="Q&A demo")
-st.header("Image Identificatfication Application")
+st.header("Image Identification Application")
 input = st.text_input("Input: ", key="input")
 
 uploaded_file = st.file_uploader(
